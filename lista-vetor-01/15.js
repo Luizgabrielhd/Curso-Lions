@@ -1,4 +1,19 @@
-let num = [1,2,3,4,5,6]
-for(let i =0;i<num.length;i++){
-    if()
+let numeros = [2, 5, 8, 12, 20, 35];
+// let numeros = [2, 10, 8, 15, 20, 25]; 
+
+let ehCrescente = true; 
+for (let i = 0; i < numeros.length - 1; i++) {
+    
+    
+    if (numeros[i] > numeros[i + 1]) {
+        ehCrescente = false;
+        break; 
+    }
+}
+
+
+if (ehCrescente) {
+    console.log("Crescente");
+} else {
+    console.log("Não crescente");
 }
