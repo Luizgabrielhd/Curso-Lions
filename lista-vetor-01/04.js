@@ -3,8 +3,8 @@ media =0;
 soma =0;
 
 for(let i=0;i<nums.length;i++){
-soma
-   media = nums[i]/2;
+    soma += nums[i];
+   media = soma/2;
 
 }
     console.log(media)
